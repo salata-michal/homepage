@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michał Sałata - strona o mnie</title>
+    <link rel="icon" href="images/mojefoto.jpg">
+    <meta property="og:image" content="images/share.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel=stylesheet>
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body js-body">
+    <header class="header">
+        <h1>Michał Sałata</h1>
+    </header>
+    <section class="section">
+        <img class="section__image" src="images/mojefoto.jpg" alt="Michał Sałata-zdjęcie">
+    </section>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a class="navigation__link" href="#kilka-slow-o-mnie">Kilka słów o mnie</a>
+            </li>
+            <li class="navigation__item"><a class="navigation__link" href="#moje-zainteresowania">Moje
+                    zainteresowania</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#ulubione-druzyny-pilkarskie">Ulubione
+                    drużyny piłkarskie</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#rodzaje-i-podzial-grzybow">Rodzaje i podział grzybów</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section class="section" id="kilka-slow-o-mnie">
+            <h2 class="section__header">Kilka słów o mnie</h2>
+            <p class="section__paragraph">
+                Witam serdecznie, mam na imię Michał. Niedawno skończyłem 29 lat.
+                Mieszkam w Warszawie w dzielnicy Ursus wraz z moją żoną Martą.
+                Pracuje jako <strong class="section__strong">serwisant komputerowy</strong>, specjalizuje się w naprawie
+                LCD.
+                Ostatnio często chodzi mi po głowie "a może warto coś zmienić w swoim życiu?"
+            </p>
+        </section>
+        <section class="section" id="moje-zainteresowania">
+            <h2 class="section__header">Moje zainteresowania</h2>
+            <p class="section__paragraph">
+                Moją największą pasją od dzieciństwa jest piłka nożna.
+                Zawsze lubiłem pokopać w piłkę aż do tej pory grywam czasami z kumplami na orliku.
+                Poza graniem śledzę także mecze piłkarskie ligi krajowe czy turnieje międzynarodowe.
+                Kolejną moją pasją jest gotowanie, które bardzo mnie uspokaja oraz pozwala wyluzować po całym dniu
+                pracy.
+                W sezonie uwielbiam zbierać grzyby co jest moją kolejną pasją.
+                Kiedy jestem w mojej rodzinnej miejscowości (oczywiście w seconie grzybowym) muszę iść do lasu.
+            </p>
+        </section>
+        <section class="section" id="ulubione-druzyny-pilkarskie">
+            <h2 class="section__header">Ulubione drużyny piłkarskie</h2>
+            <ul class="section__list">
+                <li>FC Barcelona</li>
+                <li>Manchester City</li>
+                <li>Napoli SC</li>
+                <li>Legia Warszawa</li>
+                <li>Radomiak Radom</li>
+                <li>Bayern Monachium</li>
+            </ul>
+            <button class="js-section__button">Włącz <span class="js-section__theme">ciemny</span> motyw</button>
+        </section>
+
+        <div class="section__container" id="rodzaje-i-podzial-grzybow">
+            <table class="table">
+                <caption class="table__caption">Rodzaje i podział grzybów</caption>
+                <tr class="table__row">
+                    <th class="table__cell table__header" scope="col">Numer</th>
+                    <th class="table__cell table__header" scope="col">Rodzaj</th>
+                    <th class="table__cell table__header" scope="col">Jadalny?</th>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header" scope="row">1</th>
+                    <td class="table__cell">Muchomor sromotnikowy</td>
+                    <td class="table__cell"></td>
+
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header" scope="row">2</th>
+                    <td class="table__cell">Muchomor plamisty</td>
+                    <td class="table__cell"></td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header" scope="row">3</th>
+                    <td class="table__cell">Czubajka kania</td>
+                    <td class="table__cell">✔</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header" scope="row">4</th>
+                    <td class="table__cell">Borowik szlachetny</td>
+                    <td class="table__cell">✔</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header" scope="row">5</th>
+                    <td class="table__cell">Gąska zielonka</td>
+                    <td class="table__cell">✔</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header" scope="row">6</th>
+                    <td class="table__cell">Goryczak żółciowy</td>
+                    <td class="table__cell"></td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header" scope="row">7</th>
+                    <td class="table__cell">Podgrzybek brunatny</td>
+                    <td class="table__cell">✔</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header" scope="row">8</th>
+                    <td class="table__cell">Borowik szatański</td>
+                    <td class="table__cell"></td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header" scope="row">9</th>
+                    <td class="table__cell">Maślak zwyczajny</td>
+                    <td class="table__cell">✔</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header" scope="row">10</th>
+                    <td class="table__cell">Opieńka miodowa</td>
+                    <td class="table__cell">✔</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header" scope="row">11</th>
+                    <td class="table__cell">Koźlarz babka</td>
+                    <td class="table__cell">✔</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header" scope="row">12</th>
+                    <td class="table__cell">Muchomor czerwony</td>
+                    <td class="table__cell"></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer class="footer">
+        <strong>Copyright 2022 Michał Sałata Wszelkie prawa zastrzeżone</strong>
+    </footer>
+</body>
+
+</html>

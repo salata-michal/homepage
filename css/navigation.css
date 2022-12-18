@@ -1,0 +1,37 @@
+.navigation {
+    padding: 10px;
+    text-align: center;
+}
+
+.navigation__list {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 10px;
+}
+
+.navigation__item {
+    margin: 10px;
+}
+
+.navigation__link {
+    color: rgb(33, 0, 201);
+    text-decoration: none;
+}
+
+.navigation__link:visited {
+    color: brown;
+}
+
+.navigation__link:focus {
+    outline: 3px solid currentColor;
+}
+
+.navigation__link:hover {
+    color: rgb(255, 1, 1);
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.navigation__link:active {
+    color: brown;
+}

@@ -1,0 +1,77 @@
+.section {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.section__header {
+    color:  hwb(49 9% 35%);
+    border: 2px ridge rgb(40, 84, 1);
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+.section__paragraph {
+    padding: 10px 10px;
+    border: 2px dotted rgb(37, 74, 0);
+    color: rgb(0, 0, 43);
+}
+
+.section__strong {
+    text-decoration-line:underline;
+   
+}
+
+.section__image {
+    width: 40%;
+    max-width: 500px;
+}
+
+.section__list {
+    list-style-type: " ⚽ ";
+    list-style-position: inside;
+    padding-left: 20px;
+    margin: 40px auto;
+}
+
+
+.table__cell {
+    border: 1px solid rgb(228, 255, 247);
+    padding: 20px;
+    text-align: center;
+}
+
+.table__header {
+    background-color: hsl(49, 74%, 42%);
+    color: white;
+    font-weight: normal;
+}
+
+.table__caption {
+    caption-side: top;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.section__container {
+    overflow-x: auto;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table__row:nth-child(even) {
+    background: #eee
+}
+
+.table__row:hover {
+    background-color: #ddd;
+}
+
+
+.darkTheme {
+    background-color: rgb(176, 173, 173);
+}
