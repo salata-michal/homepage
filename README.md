@@ -8,4 +8,4 @@ https://salata-michal.github.io/homepage/
 
 ## Opis
 
-Ta strona przedstawia moją osobę, kim jestem, moje zainteresowania i pasje.=
+Ta strona przedstawia moją osobę, kim jestem, moje zainteresowania i pasje.
