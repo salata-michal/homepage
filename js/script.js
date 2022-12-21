@@ -1,10 +1,23 @@
-console.log("Witam i pozdrawiam szanownych developerów");
+{
+    const welcome = () => {
+        console.log("Witam i pozdrawiam szanownych developerów");
+    }
 
-let button = document.querySelector(".js-section__button");
-let body = document.querySelector(".js-body");
-let theme = document.querySelector(".js-section__theme");
+    const onChangeBackgroundClick = () => {
+        const body = document.querySelector(".js-body");
+        const theme = document.querySelector(".js-section__theme");
 
-button.addEventListener("click", () => {
-    body.classList.toggle("darkTheme");
-    theme.innerText = body.classList.contains("darkTheme") ? "jasny" : "ciemny";
-})
+        body.classList.toggle("body--dark");
+        theme.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny";
+
+    };
+
+    const init = () => {
+        const button = document.querySelector(".js-section__button");
+        button.addEventListener("click", onChangeBackgroundClick);
+
+        welcome();
+    };
+
+    init();
+}
