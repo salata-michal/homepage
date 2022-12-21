@@ -7,6 +7,6 @@
 
 https://salata-michal.github.io/homepage/
 
-## Opis
+## description
 
-*Ta strona przedstawia moją osobę, kim jestem, moje zainteresowania i pasje.*
+*This page presents me, who I am, my interests and passions.*
