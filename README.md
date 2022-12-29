@@ -10,3 +10,11 @@ https://salata-michal.github.io/homepage/
 ## description
 
 *This page presents me, who I am, my interests and passions.*
+
+## Technologies:
+
+- HTML
+- CSS
+- JS
+- BEM
+- GIT
